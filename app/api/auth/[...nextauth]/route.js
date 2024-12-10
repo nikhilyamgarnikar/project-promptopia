@@ -37,8 +37,8 @@ const handler = NextAuth({
             } catch (error) {
                 console.log(error);
             }
-        }
-    },
+        },
+    }
 })
 
 export {handler as GET, handler as POST};
